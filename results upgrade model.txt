@@ -1,0 +1,37 @@
+ATIS RESULTS
+
+bi lstm 2 layer Slot F1 0.936 +- 0.002 Intent Acc 0.955 +- 0.002
+
+Bi lstm 2 layer min max alpha-beta loss Slot F1 0.934 +- 0.003 Intent Acc 0.951 +- 0.003
+
+Bi gru 2 layer, 0.1 dropout Slot F1 0.939 +- 0.004 Intent Acc 0.952 +- 0.004
+
+Bi gru 2 layer, 0.4 dropout Slot F1 0.942 +- 0.002 Intent Acc 0.958 +- 0.002
+
+Bi gru 2 layer alpha-beta random loss Slot F1 0.941 +- 0.004 Intent Acc 0.951 +- 0.004
+
+Bi gru 2 layer min max alpha-beta loss 1e-5 lr Slot F1 0.943 +- 0.002 Intent Acc 0.951 +- 0.002
+
+Bi gru 2 layer min max alpha-beta loss 5e-5 lr Slot F1 0.946 +- 0.001 Intent Acc 0.957 +- 0.001
+
+Bi gru 2 layer min intent max slot alpha-beta loss 5e-5 lr Slot F1 0.949 +- 0.001 Intent Acc 0.956 +- 0.001
+
+===========================================================================================================
+
+SNIPS RESULTS
+
+Bi lstm 2 layer min max alpha-beta loss Slot F1 0.874 +- 0.014 Intent Acc 0.965 +- 0.014
+
+Bi gru 2 layer, 0.1 dropout Slot F1 0.878 +- 0.014 Intent Acc 0.969 +- 0.014
+
+Bi gru 4 layer, 0.4 dropout Slot F1 0.872 +- 0.007 Intent Acc 0.969 +- 0.007
+
+Bi gru 2 layer alpha-beta random loss Slot F1 0.869 +- 0.009 Intent Acc 0.965 +- 0.009
+
+Bi gru 2 layer min max alpha-beta loss Slot F1 0.878 +- 0.008 Intent Acc 0.964 +- 0.008
+
+Bi gru 2 layer 0.3 0.7 loss Slot F1 0.889 +- 0.004 Intent Acc 0.969 +- 0.004
+
+Bi gru 2 layer min max alpha-beta loss 5e-5 lr Slot F1 0.887 +- 0.012 Intent Acc 0.969 +- 0.012
+
+Bi gru 2 layer min intent max slot alpha-beta loss 5e-5 lr Slot F1 0.891 +- 0.008 Intent Acc 0.97 +- 0.008
